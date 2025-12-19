@@ -1,16 +1,64 @@
-# ProfilePortfolio
+# Modern Angular Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.3.
+A high-performance, production-grade portfolio website built with Angular 18+ (Standalone Components, Signals), SCSS, and a Node.js content ingestion pipeline.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- **Modern Tech Stack**: Angular (Standalone), Signals, RxJS, TypeScript.
+- **Premium Design**: Dark-themed, neon accents, glassmorphism, noise textures.
+- **Content Pipeline**: Parses resume/CV (text/PDF) into structured JSON.
+- **Performance**: Lazy loading, optimized assets, minimal dependencies.
+- **Responsive**: Mobile-first design, works on all devices.
 
-```bash
-ng serve
-```
+## Setup
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+1.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+
+2.  **Sync Content**:
+    Place your resume in `content_sources/resume.txt` (or configure the script for PDF).
+    Run the sync script to generate `src/assets/content/profile.json`:
+    ```bash
+    npm run sync:content
+    ```
+
+3.  **Run Development Server**:
+    ```bash
+    npm start
+    ```
+    Navigate to `http://localhost:4200/`.
+
+## Deployment
+
+### GitHub Pages
+
+1.  Build the project:
+    ```bash
+    npm run build
+    ```
+2.  Deploy the `dist/profile-portfolio` folder.
+
+### Vercel / Netlify
+
+1.  Connect your repository.
+2.  Set build command: `npm run build`.
+3.  Set output directory: `dist/profile-portfolio/browser`.
+
+## Customization
+
+- **Content**: Edit `content_sources/resume.txt` and run `npm run sync:content`.
+- **Theme**: Edit `src/styles.scss` variables.
+- **Images**: Place images in `src/assets/images`.
+
+## Project Structure
+
+- `src/app/core`: Services and models.
+- `src/app/shared`: Reusable UI components.
+- `src/app/sections`: Page sections (Hero, About, etc.).
+- `tools`: Content synchronization scripts.
+
 
 ## Code scaffolding
 

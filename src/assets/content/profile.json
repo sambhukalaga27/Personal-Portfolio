@@ -1,0 +1,276 @@
+{
+  "basics": {
+    "name": "Sai Sambhu Prasad Kalaga",
+    "label": "AI/ML Engineer & Data Scientist",
+    "email": "saisambhuprasadkalaga@gmail.com",
+    "summary": "AI Engineer and Data Scientist with a strong background in Computer Science. Experienced in building intelligence platforms, RAG pipelines, and ML models. Passionate about leveraging AI to solve complex problems.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Austin",
+      "countryCode": "US",
+      "region": "Texas"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "sai-sambhu-prasad-kalaga",
+        "url": "https://www.linkedin.com/in/sai-sambhu-prasad-kalaga"
+      },
+      {
+        "network": "GitHub",
+        "username": "sambhukalaga27",
+        "url": "https://github.com/sambhukalaga27"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Southern Methodist University",
+      "studyType": "Master of Science in Computer Science",
+      "startDate": "August 2023",
+      "endDate": "May 2025",
+      "score": "3.9/4.0",
+      "courses": []
+    },
+    {
+      "institution": "Anurag Group of Institutions",
+      "studyType": "Bachelor of Technology in Computer Science",
+      "startDate": "August 2019",
+      "endDate": "May 2023",
+      "score": "3.6/4.0",
+      "courses": []
+    }
+  ],
+  "work": [
+    {
+      "name": "iLink Digital",
+      "position": "AI Engineer Intern",
+      "startDate": "Oct 2025",
+      "endDate": "Present",
+      "highlights": [
+        "Built an intelligence platform with multiple specialized agents orchestrated via LangGraph supervisor pattern, handling complex queries through AI-driven routing and response synthesis through OpenAI and Gemini. Implemented dual-pipeline system combining structured CSV queries with FAISS-based vector search over unstructured PDF documents, ensuring zero-hallucination responses through strict tool-based data retrieval.",
+        "Conducted comprehensive performance analysis across Llama4 vs Qwen3, and Llama 3.2 (3B) vs Qwen 2.5 (7B) models, measuring TPS (tokens-per-second), GPU VRAM utilization (4/8/16-bit quantization), and multi-query batch processing latency. Architected scalable FastAPI backend with Streamlit frontend (STT/TTS), Docker containerization, and OpenAI Evals integration for automated response quality assessment."
+      ],
+      "location": "Remote, USA"
+    },
+    {
+      "name": "Southern Methodist University",
+      "position": "Data Science Researcher- AI and ML",
+      "startDate": "March 2024",
+      "endDate": "November 2025",
+      "highlights": [
+        "Derived 50+ features from VR surgical training data; trained a Random Forest reaching 95% validation accuracy; deployed with Streamlit; benchmarked XGBoost and LSTM; shipped instructor dashboards that shortened review time by 50%; analysis revealed that students who reflected about every 2 days outperformed peers, an insight the professor adopted across classes to boost engagement and outcomes.",
+        "Automated storage and analysis of a large municipal Police Department VR training data (Python, cloud storage) with schema checks, metadata versioning, and scheduled ETL; decreased manual handling by 70% and cut time to insight from 2 days to 2 hours."
+      ],
+      "location": "Dallas, TX, USA"
+    },
+    {
+      "name": "Blue Clay Health",
+      "position": "Full Stack, NLP and ML Engineering Intern",
+      "startDate": "August 2025",
+      "endDate": "October 2025",
+      "highlights": [
+        "Designed and deployed enterprise-grade RAG and semantic-search pipelines using Python, FastAPI, FAISS, and Azure Blob Storage, optimizing ingestion and retrieval workflows to cut high-percentile latency by 35% and boost clinical insight accuracy by 28%.",
+        "Scaled microservice architecture on GCP (Cloud Run, Artifact Registry, Cloud Build) and led Azure-to-GCP migration, enabling cross-team access, faster delivery, and full-stack integration with LLM-driven workflows, automated draft generation, and intelligent summarization."
+      ],
+      "location": "Remote, USA"
+    },
+    {
+      "name": "Indian School of Business (ISB)",
+      "position": "Data Science Research Intern",
+      "startDate": "Jan 2021",
+      "endDate": "July 2021",
+      "highlights": [
+        "Automated table extraction (pandas, docx2python)  from corporate reports (Thousands of Fortune 500 companies’ annual reports) into structured datasets; built Streamlit ML/NLP demos; presented to 50+ business students, improving comprehension 20%."
+      ],
+      "location": "Hyderabad"
+    },
+    {
+      "name": "TextHappen (a digital marketing startup)",
+      "position": "Software and Data Engineer, Founder",
+      "startDate": "Jan 2021",
+      "endDate": "May 2023",
+      "highlights": [
+        "Owned full stack feature delivery for a marketing platform, collaborating with frontend engineers and analysts; shipped HTML, CSS, JavaScript, and Python services that enhanced UX. Modelled user behavior with Python, ML and scikit-learn to guide campaigns, lifting click-through rate by 25% and enabling data-driven decisions."
+      ],
+      "location": "Hyderabad, India"
+    },
+    {
+      "name": "Google",
+      "position": "Google Developer Student Club Lead",
+      "startDate": "August 2022",
+      "endDate": "July 2023",
+      "highlights": [
+        "Spearheaded a 1,200+ member community; organized workshops and hands-on sessions across Web, Data, Android, Google Cloud, AI/ML, Flutter, and Dialogflow CX."
+      ],
+      "location": "Hyderabad"
+    }
+  ],
+  "projects": [
+    {
+      "name": "CUDA Accelerated Explainable AI for Heart and Chest X-ray Diagnostics",
+      "description": "Implemented a CUDA accelerated system for dual diagnostics using CNNs on chest X-rays and MLP on tabular indicators, reaching 98.7% validation accuracy. Integrated SHAP and Gemini to generate natural-language rationale in a Streamlit interface for Users.",
+      "highlights": [
+        "Implemented a CUDA accelerated system for dual diagnostics using CNNs on chest X-rays and MLP on tabular indicators, reaching 98.7% validation accuracy. Integrated SHAP and Gemini to generate natural-language rationale in a Streamlit interface for Users."
+      ],
+      "startDate": "Summer 2025",
+      "url": "https://github.com/sambhukalaga27/explainable_ai_health.git",
+      "keywords": []
+    },
+    {
+      "name": "Detecting Out-of-Tune Instruments with Audio Deep Learning (VGGish)",
+      "description": "Trained CNN and MLP models with VGGish embeddings and mel-spectrograms in TensorFlow, delivering 81% test accuracy on a custom NSynth dataset. Synthesized 300K+ augmented audio clips with Librosa.",
+      "highlights": [
+        "Trained CNN and MLP models with VGGish embeddings and mel-spectrograms in TensorFlow, delivering 81% test accuracy on a custom NSynth dataset. Synthesized 300K+ augmented audio clips with Librosa."
+      ],
+      "startDate": "Spring 2025",
+      "url": "assets/FinalProject_CS8321.html",
+      "keywords": []
+    },
+    {
+      "name": "SMUBot - a RAG-based Chatbot for International Student Assistance",
+      "description": "Developed a RAG chatbot using Gemini LLM and FAISS semantic search, shortening response time by 70% and attaining 98% answer accuracy on FAQs. Optimized PDF ingestion and indexing with Python and Transformers, reducing retrieval latency by 80%.",
+      "highlights": [
+        "Developed a RAG chatbot using Gemini LLM and FAISS semantic search, shortening response time by 70% and attaining 98% answer accuracy on FAQs. Optimized PDF ingestion and indexing with Python and Transformers, reducing retrieval latency by 80%."
+      ],
+      "startDate": "Fall 2024",
+      "url": "https://github.com/sambhukalaga27/SMUBot.git",
+      "keywords": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "C++",
+        "R",
+        "C",
+        "SQL",
+        "Java"
+      ]
+    },
+    {
+      "name": "Frameworks/Technologies",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Spring Boot"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "MySQL",
+        "Oracle",
+        "Google BigQuery"
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "keywords": [
+        "Linear Algebra",
+        "Calculus",
+        "Statistics",
+        "Probability"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "keywords": [
+        "Initiative",
+        "Leadership",
+        "Adaptability",
+        "Critical Thinking"
+      ]
+    },
+    {
+      "name": "Product Management",
+      "keywords": [
+        "Product Metrics",
+        "KPIs",
+        "A/B Testing",
+        "Causal Inference",
+        "Empathy",
+        "Hypothesis Testing",
+        "Bias Detection"
+      ]
+    },
+    {
+      "name": "Application Environments",
+      "keywords": [
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "Looker",
+        "Anaconda",
+        "Flask",
+        "Airflow",
+        "Databricks",
+        "Hadoop",
+        "FastAPI"
+      ]
+    },
+    {
+      "name": "Software and Cloud",
+      "keywords": [
+        "AWS",
+        "GCP",
+        "SDLC",
+        "Agile",
+        "Git",
+        "GitHub",
+        "CI/CD",
+        "SageMaker",
+        "Snowflake",
+        "Docker",
+        "Spark"
+      ]
+    },
+    {
+      "name": "AI and ML Toolkit",
+      "keywords": [
+        "Scikit-Learn",
+        "Keras",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "StreamLit",
+        "TensorFlow",
+        "FAISS",
+        "PyTorch",
+        "MLP",
+        "CNN",
+        "NLP",
+        "chatbot",
+        "LLM",
+        "computer vision",
+        "HuggingFace",
+        "BERT",
+        "Tuning"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Published ML-based object detection research in a UGC-approved journal (2023).",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    },
+    {
+      "title": "Secured SMU Lyle Graduate Scholarship.",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    },
+    {
+      "title": "Awarded 1st place in IBM’s AI/ML Hackathon among 50+ teams.",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ]
+}
